@@ -23,3 +23,5 @@ Compare & Pull Request가 안뜨면 Create Pull Request가 있을거예요.
 - Assignees는 본인 또는 같이 해당 부분을 작업한 담당자를 올립니다.
 - Reviewers는 저장소 관리자를 걸어주세요.
 
+머지가 완료되면 우측 하단에 프로젝트 기여자가 표시됩니다.
+<img width="465" alt="image" src="https://user-images.githubusercontent.com/68332735/172034492-e6371bfd-3ce5-41e4-8fe0-6d041f692c74.png">
