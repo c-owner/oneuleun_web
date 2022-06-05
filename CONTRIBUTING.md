@@ -1,5 +1,7 @@
 ## Guide
+
 ---
+
 ## 🌱 Create Issue
 
 Issue 생성
@@ -96,7 +98,7 @@ Repository의 Projects 메뉴로 들어가면
 
 
 
-기여자 표시 뜨게하는 방법
+Fork 찍어서 기여하는 방법
 ---
 
 1. 프로젝트 원격 저장소 포크(Fork)를 찍습니다. 
@@ -109,12 +111,7 @@ Repository의 Projects 메뉴로 들어가면
 2. 포크 찍은 Repository를 클론 받아서 브랜치를 생성한 뒤 커밋 후 푸시합니다. 
 
 
-
-
-
-머지가 완료되면 우측 하단에 프로젝트 기여자가 표시됩니다.
-<img width="350" height="700" alt="image" src="https://user-images.githubusercontent.com/68332735/172034492-e6371bfd-3ce5-41e4-8fe0-6d041f692c74.png">
-
+3. 포크를 찍었던 원래의 원격 저장소로 가서 PR 요청합니다.
 
 
 
