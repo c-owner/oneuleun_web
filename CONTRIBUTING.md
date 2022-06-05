@@ -1,6 +1,9 @@
 ## Guide
 
-1. 프로젝트 원격 저장소 포크(Fork)를 찍습니다.
+1. 프로젝트 원격 저장소 포크(Fork)를 찍습니다. 
+2. 프로젝트 상단에 Fork 버튼
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68332735/172034531-4fc95512-4547-416a-afca-f375f5d91569.png">
+
 
 ![image-20220605123830346](https://tva1.sinaimg.cn/large/e6c9d24egy1h2x7sinpofj217c0og0vg.jpg)
 
