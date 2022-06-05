@@ -1,13 +1,16 @@
 ## Guide
+---
+기여자 표시 뜨게하는 방법
+---
 
 1. 프로젝트 원격 저장소 포크(Fork)를 찍습니다. 
-2. 프로젝트 상단에 Fork 버튼
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/68332735/172034531-4fc95512-4547-416a-afca-f375f5d91569.png">
 
+> 프로젝트 상단에 Fork 버튼
+> <img width="800" alt="image" src="https://user-images.githubusercontent.com/68332735/172034531-4fc95512-4547-416a-afca-f375f5d91569.png">
+---
+<img width="768" alt="image" src="https://user-images.githubusercontent.com/68332735/172034577-5d394dd0-46d6-45e4-acaf-7bdd198ec17e.png">
 
-![image-20220605123830346](https://tva1.sinaimg.cn/large/e6c9d24egy1h2x7sinpofj217c0og0vg.jpg)
-
-
+---
 
 2. 포크 찍은 Repository를 클론 받아서 브랜치를 생성한 뒤 커밋 후 푸시합니다. 
 3. 우리 저장소에서 PR(pull request)을 요청합니다.
@@ -28,3 +31,15 @@ Compare & Pull Request가 안뜨면 Create Pull Request가 있을거예요.
 
 머지가 완료되면 우측 하단에 프로젝트 기여자가 표시됩니다.
 <img width="465" alt="image" src="https://user-images.githubusercontent.com/68332735/172034492-e6371bfd-3ce5-41e4-8fe0-6d041f692c74.png">
+
+
+----
+
+푸쉬 하기전에는 항상 
+`git pull origin master` 
+하고나서 분기(브랜치)를 최신 상태로 만들어 두셔야 해요
+
+푸쉬를 먼저 해버렸다해도 
+`git pull origin master`해서 충돌나면 충돌 잡고 다시 커밋 후 푸쉬
+충돌이 안났더라면 그대로 `git pull origin master` ==> 커밋 후 푸쉬
+
