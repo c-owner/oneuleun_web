@@ -1,4 +1,4 @@
-# Diary Web Project
+# 오늘은,
 
 ```
 auth :: corner / taeminahn / dasom ko / SeoJun Kim   
