@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          안녕하세요2서준이에요
+          안녕하세요 빌런준이예요.
         </a>
       </header>
     </div>
