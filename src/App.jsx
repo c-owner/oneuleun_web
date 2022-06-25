@@ -6,6 +6,9 @@ function App() {
 
   return (
       <div className="App">
+        <div id="header">
+        </div>
+        <div id=''></div>
           <div id="body" className="oneuleun-app-body">
               <Routes>
                 {/* 메인 */}
