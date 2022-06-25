@@ -4,18 +4,18 @@ import Hello from "./views/Hello"
 import './assets/scss/index.scss';
 
 function App() {
-
   return (
       <div className="App">
         <div id="header">
         </div>
-        <div id=''></div>
+        <div id="lnb">
+        </div>
           <div id="body" className="oneuleun-app-body">
               <Routes>
                 {/* 메인 */}
                 <Route path="/" element={<Main />} />
                 {/* 로그인 */}
-                <Route path="/login" element={<Hello/>} /> 
+                <Route path="/login" element={<Hello/>} />
                 {/* 일기장 */}
                 <Route path="/diary" element={<Hello/>} />
                 {/* 일기장 작성 */}
