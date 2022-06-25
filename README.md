@@ -1,4 +1,6 @@
 # 오늘은,
+![oneuleun_logo](https://user-images.githubusercontent.com/68332735/175758745-4b697532-551b-4ee1-9ba0-e7685fc6630f.png)
+
 
 ```
 auth :: corner / taeminahn / dasom ko / SeoJun Kim   
