@@ -1,13 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import Main from "./views/Main";
 import Hello from "./views/Hello"
+import './assets/scss/index.scss';
 
 function App() {
-
   return (
       <div className="App">
-        <div id="header">
-        </div>
+        <div id="header"></div>
         <div id=''></div>
           <div id="body" className="oneuleun-app-body">
               <Routes>
