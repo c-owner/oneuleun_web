@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Main from "./views/Main";
 import Hello from "./views/Hello"
+import './assets/scss/index.scss';
 
 function App() {
 
