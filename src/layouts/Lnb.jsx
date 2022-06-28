@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const Lnb = () => {
   return (
     <>
-    header
+      lnb
     </>
   )
 }
 
-export default Header;
+export default Lnb;
