@@ -1,0 +1,15 @@
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media (max-width: 575px) {
+	.intro_btn_wrap {
+		display: block !important;
+		button {
+			margin: 40px auto;
+			display: block !important;
+		}
+	}
+}

@@ -45,11 +45,14 @@ body, html, strong, a, span {
 	color: $theme-bg2;
 }
 
+// ****************************************************
+
+
 #header {
 	border-bottom: 1px solid #e5e5e5;
 }
 .header {
-	width: 1260px;
+	max-width: 1260px;
 	height: 60px;
 	margin: 0 auto;
 }
@@ -68,6 +71,13 @@ body, html, strong, a, span {
 	.intro-content {
 		text-align: center;
 		position: absolute;
+	}
+
+	.text-slider-items {
+		display: none;
+	}
+	.text-slider {
+
 	}
 }
 .overlay-intro {
@@ -93,7 +103,7 @@ body, html, strong, a, span {
 
 /* Global */
 .line-1{
-	width: 12em;
+	max-width: 8em;
 	margin: 0 auto;
 	border-right: 2px solid rgba(255,255,255,.75);
 	font-size: 180%;
@@ -109,7 +119,7 @@ body, html, strong, a, span {
 }
 @keyframes typewriter{
 	from{width: 0;}
-	to{width: 12em;}
+	to{max-width: 8em;}
 }
 @keyframes blinkTextCursor{
 	from{border-right-color: rgba(255,255,255,.75);}
@@ -124,9 +134,7 @@ body, html, strong, a, span {
 }
 
 .container {
-	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;
 	margin: 0 auto;
 }
-
