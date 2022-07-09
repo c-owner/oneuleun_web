@@ -2,9 +2,9 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <>
-    header
-    </>
+    <div className="flex space-between">
+
+    </div>
   )
 }
 
