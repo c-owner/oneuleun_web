@@ -55,6 +55,12 @@ body, html, strong, a, span {
  	* Description : Intro -
 ***************************/
 
+.intro {
+	height: calc(100vh - 64px);
+}
+.dark-bg {
+	background-color: #00000050;
+}
 
 /* Global */
 .line-1{
