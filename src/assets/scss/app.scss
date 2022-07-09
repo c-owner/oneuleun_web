@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 /**********************
 	* Developer : corner
  	* APP SCSS : Variables Setup
@@ -8,6 +10,7 @@ $theme-bg2: #FFB9D1;
 
 $nanum-font: 'Nanum Barunpen', sans-serif;
 $sinhon-font: 'Sinhonbubu', sans-serif;
+$theme-font: 'Poor Story', cursive;
 
 $h1-size: 24px;
 $h2-size: 20px;
@@ -24,14 +27,14 @@ $default-size: 14px;
  **********************/
 
 body, html, strong, a, span {
-	font-family: $sinhon-font;
+	font-family: $theme-font;
 	font-size: $default-size;
 }
 
 .App {
 	width: 100%;
 	height: 100vh;
-	font-family: $sinhon-font;
+	font-family: $theme-font;
 	font-size: $default-size;
 	margin: 0 auto;
 	background: linear-gradient($theme-bg1, $theme-bg2);
