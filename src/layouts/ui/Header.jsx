@@ -31,7 +31,10 @@ const Header = () => {
 
 	return (
 		<div className="header flex space-between item-center">
-			<img src={logo_dark} alt="오늘은 로고" width="82" height="50" />
+			<img src={logo_dark} alt="오늘은 로고" width="82" height="50"
+				 className="cursor" onClick={() => {
+					window.location.href = '/';
+			}} />
 			<Box sx={{ flexGrow: 0 }}>
 				<Tooltip title="Open settings">
 					<IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>

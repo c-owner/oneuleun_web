@@ -721,6 +721,16 @@
 .w100p{width: 100%;}
 .w50p {width: 50%;}
 .w45p {width: 45%;}
+
+
+.m-w20 {
+	max-width: 20em;
+}
+.m-w35 {
+	max-width: 35em;
+}
+
+
 .h100p{height: 100%;}
 .h50p {height: 50%;}
 
@@ -781,6 +791,9 @@
     align-content: center;
     align-items: center;
 }
+.space-around {
+	justify-content: space-around;
+}
 .justify-content {justify-content: center;}
 .item-center {align-items: center;}
 .side-center {
@@ -829,3 +842,14 @@
 
 .word-keep {word-break: keep-all;}
 .h-full{height: 100vh;}
+.w-full{width: 100vh;}
+
+.table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+.display-table {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
