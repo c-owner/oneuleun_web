@@ -13,7 +13,7 @@ const Main = () => {
 		<div className="intro-content top0 display-table">
 			<div className="table-cell">
 				<div className="container text-center">
-					<p className="title mb50">오늘 하루 어떠셨나요?</p>
+					<p className="title mb50 line-1 anim-typewriter">오늘 하루 어떠셨나요?</p>
 					<div className="m-w35 space-around flex item-center center-block">
 						<ThemeButton onClick={() => {
 							window.location.href = '/diary';
