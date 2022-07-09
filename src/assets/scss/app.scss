@@ -10,6 +10,7 @@ $theme-bg2: #FFB9D1;
 
 $theme-font: 'Poor Story', cursive;
 
+$title-size: 36px;
 $h1-size: 24px;
 $h2-size: 20px;
 $h3-size: 16px;
@@ -46,3 +47,43 @@ body, html, strong, a, span {
 	margin: 0 auto;
 }
 
+
+
+
+/**************************
+	* Developer : corner
+ 	* Description : Intro -
+***************************/
+
+
+/* Global */
+.line-1{
+	width: 13em;
+	margin: 0 auto;
+	border-right: 2px solid rgba(255,255,255,.75);
+	font-size: 180%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/* Animation */
+.anim-typewriter{
+	animation: typewriter 4s steps(44) 1s 1 normal both,
+	blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+	from{width: 0;}
+	to{width: 13em;}
+}
+@keyframes blinkTextCursor{
+	from{border-right-color: rgba(255,255,255,.75);}
+	to{border-right-color: transparent;}
+}
+
+.title {
+	font-family: $theme-font;
+	font-size: $title-size;
+	color: #fff;
+	text-align: center;
+}
