@@ -10,6 +10,7 @@ $theme-bg2: #FFB9D1;
 
 $theme-font: 'Poor Story', cursive;
 
+$title-size: 36px;
 $h1-size: 24px;
 $h2-size: 20px;
 $h3-size: 16px;
@@ -37,12 +38,95 @@ body, html, strong, a, span {
 	margin: 0 auto;
 	background: linear-gradient($theme-bg1, $theme-bg2);
 }
+.theme-color {
+	color: $theme-bg1;
+}
+.theme-color2 {
+	color: $theme-bg2;
+}
+
 #header {
 	border-bottom: 1px solid #e5e5e5;
 }
 .header {
 	width: 1260px;
 	height: 60px;
+	margin: 0 auto;
+}
+
+
+
+
+/**************************
+	* Developer : corner
+ 	* Description : Intro -
+***************************/
+
+.intro {
+	height: calc(100vh - 64px);
+	color: #fff;
+	.intro-content {
+		text-align: center;
+		position: absolute;
+	}
+}
+.overlay-intro {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0px;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	opacity: .9;
+}
+
+.bg-image {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.dark-bg {
+	background-color: #00000050;
+}
+
+/* Global */
+.line-1{
+	width: 10em;
+	margin: 0 auto;
+	border-right: 2px solid rgba(255,255,255,.75);
+	font-size: 180%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/* Animation */
+.anim-typewriter{
+	animation: typewriter 2s steps(22) 1s 1 normal both,
+	blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+	from{width: 0;}
+	to{width: 10em;}
+}
+@keyframes blinkTextCursor{
+	from{border-right-color: rgba(255,255,255,.75);}
+	to{border-right-color: transparent;}
+}
+
+.title {
+	font-family: $theme-font;
+	font-size: $title-size;
+	color: #fff;
+	text-align: center;
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
 	margin: 0 auto;
 }
 
