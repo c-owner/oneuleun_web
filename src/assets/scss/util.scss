@@ -776,6 +776,8 @@
     align-content: center;
     align-items: center;
 }
+.justify-content {justify-content: center;}
+.item-center {align-items: center;}
 .side-center {
     display: flex;
     justify-content: space-between;
@@ -821,3 +823,5 @@
 .lh-2rem {line-height: 2rem;}
 
 .word-keep {word-break: keep-all;}
+
+
