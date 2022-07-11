@@ -11,7 +11,6 @@ const ThemeButton = styled(Button)({
 		display: 'block',
 	},
 	'&:hover': {
-		backgroundColor: '#FFB9D1',
 		borderColor: '#FFB9D1',
 		color: '#9074FFFF',
 		fontWeight: 'bold',
@@ -19,7 +18,6 @@ const ThemeButton = styled(Button)({
 	},
 	'&:active': {
 		boxShadow: 'none',
-		backgroundColor: '#FFB9D1',
 		borderColor: '#FFB9D1',
 		fontWeight: 'bold',
 		color: '#9074FFFF',
