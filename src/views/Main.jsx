@@ -1,5 +1,5 @@
 import dot from 'assets/images/dot2.png'
-import ThemeButton from "../components/ui/ThemeButton";
+import ThemeButton from "../components/ui/main/ThemeButton";
 import Typed from "../components/main/Typed";
 
 
