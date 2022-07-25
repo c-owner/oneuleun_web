@@ -1,0 +1,47 @@
+:root {
+	font-family: $theme-font !important;
+	font-size: $default-size !important;
+}
+
+
+.auth_wrap {
+	width: calc(100% - 250px);
+	height: calc(100vh - 450px);
+	padding: 90px 40px 83px;
+	margin: 40px auto;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	background: #fff;
+	text-align: center;
+
+	.register_box {
+		border: 1px solid $theme-bg1;
+		width: 606px;
+		height: 761px;
+		margin: 0 auto;
+		border-radius: 15px;
+		position: relative;
+		&:after {
+			position: absolute;
+			content: '회원가입';
+			width: 150px;
+			height: 150px;
+			top: -72px;
+			left: 38%;
+			background-image: url("/assets/images/logo_ddaum_dark.png");
+			background-size: 110px;
+			background-repeat: no-repeat;
+			background-position: center -20px;
+			background-color: #fff;
+
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			font-size: 34px;
+			font-family: $theme-font;
+			color: #212121;
+		}
+	}
+
+}
