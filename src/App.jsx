@@ -4,6 +4,10 @@ import {Routes, Route} from "react-router-dom";
 import Main from "views/Main";
 import Hello from "views/Hello";
 import Header from "layouts/ui/Header"
+import Register from "views/auth/Register";
+
+const auth_path = '/auth';
+const diary_path = '/diary';
 
 function App() {
 	return (
@@ -18,7 +22,9 @@ function App() {
 					{/* 메인 */}
 					<Route path="/" element={<Main/>}/>
 					{/* 로그인 */}
-					<Route path="/login" element={<Hello/>}/>
+					<Route path={auth_path + '/login'} element={<Hello/>}/>
+					{/* 회원가입 */}
+					<Route path={auth_path + '/register'} element={<Register/>}/>
 					{/* 일기장 */}
 					<Route path="/diary" element={<Hello/>}/>
 					{/* 일기장 작성 */}
