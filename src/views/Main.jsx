@@ -6,6 +6,7 @@ import Typed from "../components/main/Typed";
 const slider_arr = [
 	'오늘 하루는 어떠셨나요?',
 	'오늘의 일기를 작성해보세요.',
+	'당신은 사랑받기 위해 태어난 사람.',
 ];
 
 const Main = (props) => {
@@ -37,6 +38,9 @@ const Main = (props) => {
 							<ThemeButton onClick={() => {
 								window.location.href = "/mypage";
 							}} variant="outlined">내 프로필 설정하기</ThemeButton>
+							<ThemeButton onClick={() => {
+								window.location.href = "/auth/login";
+							}} variant="outlined">로그인 하기</ThemeButton>
 						</div>
 					</div>
 				</div>
