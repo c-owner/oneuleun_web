@@ -19,12 +19,12 @@ const Login = () => {
             <div className='form_content'>
               <input className='input' type="password" id="user_password" placeholder="비밀번호를 입력해주세요" />
             </div>
-            <div className='form_content'>
+            <div className='form_content login_checkbox'>
               <input type="checkbox" id='login_checkbox' />
               <label htmlFor="login_checkbox">아이디 / 비밀번호 기억하기</label>
             </div>
             <div className='form_content'>
-              <input className='input' type="submit" value='로그인하기' />
+              <Button className='submit_btn' type="submit">로그인 하기</Button>
             </div>
           </form>
           <div className='social_login_box'>
