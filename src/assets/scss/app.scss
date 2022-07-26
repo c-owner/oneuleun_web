@@ -140,3 +140,30 @@ body, html, strong, a, span {
 	padding-left: 15px;
 	margin: 0 auto;
 }
+
+.btn-1 {
+	background-color: #FFFFFF;
+	border: 1px solid $theme-bg1;
+	border-radius: 4px;
+	color: #444444;
+	font-family: $theme-font;
+	padding: 8px 16px;
+	min-height: 45px;
+	&:active, &:hover {
+		border: 1px solid $theme-bg2;
+		color: #000000;
+	}
+}
+.input {
+	font-family: $theme-font !important;
+	border-radius: 4px;
+	border: 1px solid $theme-bg2;
+	min-width: 180px;
+	min-height: 45px;
+	padding: 0 16px;
+	color: #444444;
+	&:active, &:focus, &:hover {
+		border: 1px solid $theme-bg1;
+		color: #000000;
+	}
+}
