@@ -1,3 +1,175 @@
+<<<<<<< HEAD
 :root {
   font-size: 10px;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+/**********************
+	* Developer : corner
+ 	* APP SCSS : Variables Setup
+ **********************/
+
+$theme-bg1: #9074FF;
+$theme-bg2: #FFB9D1;
+
+$theme-font: 'Poor Story', cursive;
+
+$title-size: 36px;
+$h1-size: 24px;
+$h2-size: 20px;
+$h3-size: 16px;
+$h4-size: 14px;
+$h5-size: 12px;
+$h6-size: 10px;
+
+$default-size: 14px;
+
+/**********************
+	* Developer : corner
+ 	* APP SCSS : app style -
+ **********************/
+
+body, html, strong, a, span {
+	font-family: $theme-font;
+	font-size: $default-size;
+}
+
+.App {
+	width: 100%;
+	height: 100%;
+	padding-bottom: 140px;
+	font-family: $theme-font;
+	font-size: $default-size;
+	margin: 0 auto;
+	background: linear-gradient($theme-bg1, $theme-bg2);
+}
+.theme-color {
+	color: $theme-bg1;
+}
+.theme-color2 {
+	color: $theme-bg2;
+}
+
+// ****************************************************
+
+
+#header {
+	border-bottom: 1px solid #e5e5e5;
+}
+.header {
+	max-width: 1260px;
+	height: 60px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+
+
+
+/**************************
+	* Developer : corner
+ 	* Description : Intro -
+***************************/
+
+.intro {
+	height: calc(100vh - 64px);
+	color: #fff;
+	.intro-content {
+		text-align: center;
+		position: absolute;
+	}
+
+	.text-slider-items {
+		display: none;
+	}
+	.text-slider {
+
+	}
+}
+.overlay-intro {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0px;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	opacity: .9;
+}
+
+.bg-image {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.dark-bg {
+	background-color: #00000050;
+}
+
+/* Global */
+.line-1{
+	max-width: 8em;
+	margin: 0 auto;
+	border-right: 2px solid rgba(255,255,255,.75);
+	font-size: 180%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/* Animation */
+.anim-typewriter{
+	animation: typewriter 2s steps(22) 1s 1 normal both,
+	blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+	from{width: 0;}
+	to{max-width: 8em;}
+}
+@keyframes blinkTextCursor{
+	from{border-right-color: rgba(255,255,255,.75);}
+	to{border-right-color: transparent;}
+}
+
+.title {
+	font-family: $theme-font;
+	font-size: $title-size;
+	color: #fff;
+	text-align: center;
+}
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 0 auto;
+}
+
+.btn-1 {
+	background-color: #FFFFFF;
+	border: 1px solid $theme-bg1;
+	border-radius: 4px;
+	color: #444444;
+	font-family: $theme-font;
+	padding: 8px 16px;
+	min-height: 45px;
+	&:active, &:hover {
+		border: 1px solid $theme-bg2;
+		color: #000000;
+	}
+}
+.input {
+	font-family: $theme-font !important;
+	border-radius: 4px;
+	border: 1px solid $theme-bg2;
+	min-width: 180px;
+	min-height: 45px;
+	padding: 0 16px;
+	color: #444444;
+	&:active, &:focus, &:hover {
+		border: 1px solid $theme-bg1;
+		color: #000000;
+	}
+}
+>>>>>>> 63db8e123139c3c598eefa05207efc7c04bffd2d

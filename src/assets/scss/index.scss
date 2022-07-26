@@ -2,3 +2,8 @@
 @import "common";
 @import "app";
 
+@import "auth";
+
+
+// 모바일은 항상 마지막으로 import (우선순위)
+@import "mobile";
