@@ -87,4 +87,99 @@
 		}
 	}
 
+	.login_box {
+		.logo_smile {
+			img {
+				width: 5.83vw;
+				height: 7.29vw;
+			}
+		}
+
+		.login_form {
+			.form_content {
+				.input {
+					width: 40vw;
+					padding: 0;
+					padding-left: 16px;
+					box-sizing: border-box;
+				}
+				&:first-of-type {
+					margin-top: 70px;
+				}
+				& + .form_content {
+					margin-top: 40px;
+				}
+				.submit_btn {
+					color: #3D3185;
+					font-weight: bold;
+					background-color: white;
+					width: 40vw;
+					height: 47px;
+					border-radius: 4px;
+					border: 1px solid transparent;
+					background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(90deg, #3D3185 0%, #FFB9D1 100%);
+					background-origin: border-box;
+					background-clip: content-box,border-box;
+					padding: 0;
+
+				}
+			}
+			.login_checkbox {
+				margin: 0 auto;
+				width: 40vw;
+				text-align: left;
+			}
+			.social_login_box {
+				width: 40vw;
+				font-size: 0;
+				margin: 40px auto 0;
+				.social_login {
+					width: calc(50% - 5px);
+					display: inline-block;
+
+					img {width: 100%;}
+					& + .social_login {
+						margin-left: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 820px){
+		.login_box {
+			.logo_smile {
+				img {
+					margin-top: 100px;
+					width: 112px;
+					height: 140px;
+				}
+			}
+
+			.login_form {
+				.form_content {
+					.input {
+						width: 65vw;
+					}
+					&:first-of-type {
+						margin-top: 40px;
+					}
+					& + .form_content {
+						margin-top: 20px;
+					}
+					.submit_btn {
+						width: 65vw;
+					}
+				}
+				.login_checkbox {
+					margin: 0 auto;
+					width: 65vw;
+				}
+				.social_login_box {
+					width: 65vw;
+				}
+			}
+
+		}
+	}
 }
