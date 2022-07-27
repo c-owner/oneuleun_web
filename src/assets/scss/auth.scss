@@ -98,7 +98,10 @@
 		.login_form {
 			.form_content {
 				.input {
-					width: 27.65vw;
+					width: 40vw;
+					padding: 0;
+					padding-left: 16px;
+					box-sizing: border-box;
 				}
 				&:first-of-type {
 					margin-top: 70px;
@@ -107,8 +110,10 @@
 					margin-top: 40px;
 				}
 				.submit_btn {
+					color: #3D3185;
+					font-weight: bold;
 					background-color: white;
-					width: 27.65vw;
+					width: 40vw;
 					height: 47px;
 					border-radius: 4px;
 					border: 1px solid transparent;
@@ -120,8 +125,23 @@
 				}
 			}
 			.login_checkbox {
+				margin: 0 auto;
+				width: 40vw;
 				text-align: left;
-				border: 1px solid red;
+			}
+			.social_login_box {
+				width: 40vw;
+				font-size: 0;
+				margin: 40px auto 0;
+				.social_login {
+					width: calc(50% - 5px);
+					display: inline-block;
+
+					img {width: 100%;}
+					& + .social_login {
+						margin-left: 10px;
+					}
+				}
 			}
 		}
 	}
@@ -130,6 +150,7 @@
 		.login_box {
 			.logo_smile {
 				img {
+					margin-top: 100px;
 					width: 112px;
 					height: 140px;
 				}
@@ -151,8 +172,10 @@
 					}
 				}
 				.login_checkbox {
-					padding: 0 16px;
 					margin: 0 auto;
+					width: 65vw;
+				}
+				.social_login_box {
 					width: 65vw;
 				}
 			}
