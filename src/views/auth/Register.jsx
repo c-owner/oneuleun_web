@@ -1,10 +1,14 @@
 import React from "react";
+import member from "config/api/member";
 
 const Register = () => {
-	const submit = () => {
 
+	const submit = (formData) => {
+		console.log(formData);
 	}
+
 	return (
+
 		<div className="bg-white auth_wrap">
 			<div className="register_box">
 
@@ -32,14 +36,18 @@ const Register = () => {
 							<label for="password_confirm">비밀번호 확인</label>
 							<input className="input" type="password" id="password_confirm" placeholder="비밀번호 확인" />
 						</div>
-
+						<div>
+							<button type="submit">가입 신청</button>
+						</div>
 					</form>
 
 
 				</div>
 			</div>
 		</div>
+
 	)
+
 }
 
 export default Register;
