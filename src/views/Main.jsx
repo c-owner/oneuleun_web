@@ -1,5 +1,4 @@
 import dot from 'assets/images/dot2.png'
-import ThemeButton from "../components/ui/main/ThemeButton";
 import Typed from "../components/main/Typed";
 
 
@@ -29,18 +28,18 @@ const Main = (props) => {
 						</div>
 
 						<div className="intro_btn_wrap m-w35 space-around flex item-center center-block">
-							<ThemeButton onClick={() => {
+							<button onClick={() => {
 								window.location.href = '/diary';
-							}} variant="outlined" >일기 시작하기</ThemeButton>
-							<ThemeButton onClick={() => {
+							}} variant="outlined" >일기 시작하기</button>
+							<button onClick={() => {
 								window.location.href = '/calendar';
-							}} variant="outlined">캘린더 확인하러가기</ThemeButton>
-							<ThemeButton onClick={() => {
+							}} variant="outlined">캘린더 확인하러가기</button>
+							<button onClick={() => {
 								window.location.href = "/mypage";
-							}} variant="outlined">내 프로필 설정하기</ThemeButton>
-							<ThemeButton onClick={() => {
+							}} variant="outlined">내 프로필 설정하기</button>
+							<button onClick={() => {
 								window.location.href = "/auth/login";
-							}} variant="outlined">로그인 하기</ThemeButton>
+							}} variant="outlined">로그인 하기</button>
 						</div>
 					</div>
 				</div>
