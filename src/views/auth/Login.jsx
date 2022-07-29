@@ -13,6 +13,7 @@ const Login = () => {
         <h1 className='logo_smile'>
           <img src={ logo_smile } alt="" />
         </h1>
+
         <div className='login_form'>
           <form action="submit">
             <div className='form_content'>
@@ -33,19 +34,13 @@ const Login = () => {
             <a className='social_login login_kakao' href={KAKAO_AUTH_URL}>
               <img src={ login_kakao } alt="카카오로 로그인" />
             </a>
+            
             <a className='social_login login_naver' href={NAVER_AUTH_URL}>
               <img src={ login_naver } alt="네이버로 로그인" />
             </a>
           </div>
         </div>
       </div>
-      <ul>
-        <li><div>로그인 실패</div></li>
-        <li><div>비번 찾기 1</div></li>
-        <li><div>비번 찾기 2</div></li>
-        <li><div>비번 찾기 3</div></li>
-        <li><div>비번 찾기 4</div></li>
-      </ul>
     </div> 
   );
 }
