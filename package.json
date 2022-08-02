@@ -9,12 +9,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD
-    "axios": "^0.27.2",
-    "node-sass": "^7.0.0",
-=======
     "node-sass": "^6.0.1",
->>>>>>> 99990299b32ff89f94a7a9b7542bcce116b37a69
     "react": "^18.1.0",
     "react-axios": "^2.0.6",
     "react-dom": "^18.1.0",

@@ -134,6 +134,16 @@
 				}
 			}
 		}
+		.login_failed_form {
+			.login_failed_text {
+				font-size: 3rem;
+				font-family: $theme-font;
+			}
+
+			.form_content {
+				border: 1px solid blue;
+			}
+		}
 	}
 
 	@media screen and (max-width: 820px){

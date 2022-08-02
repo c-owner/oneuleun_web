@@ -5,6 +5,7 @@ import Hello from "views/Hello";
 import Header from "layouts/ui/Header"
 import Register from "views/auth/Register";
 import Login from 'views/auth/Login';
+import LoginFailed from 'views/auth/LoginFailed';
 
 const auth_path = '/auth';
 const diary_path = '/diary';
@@ -22,7 +23,9 @@ function App() {
 					{/* 메인 */}
 					<Route path="/" element={<Main/>}/>
 					{/* 로그인 */}
-					<Route path={auth_path + '/login'} element={<Login/>}/>
+					<Route path={auth_path + '/login'} element={<Login />} />
+					{/* 로그인 실패*/}
+					<Route path={auth_path + '/login/fail'} element={<LoginFailed/>}/>
 					{/* 회원가입 */}
 					<Route path={auth_path + '/register'} element={<Register/>}/>
 					{/* 일기장 */}

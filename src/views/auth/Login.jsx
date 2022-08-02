@@ -15,7 +15,7 @@ const Login = () => {
         </h1>
 
         <div className='login_form'>
-          <form action="submit">
+          <form action="">
             <div className='form_content'>
               <input className='input' type="email" id="user_email" placeholder="이메일을 입력해주세요" />
             </div>
@@ -27,7 +27,7 @@ const Login = () => {
               <label htmlFor="login_checkbox">아이디 / 비밀번호 기억하기</label>
             </div>
             <div className='form_content'>
-              <button className='theme-btn submit_btn'>로그인 하기</button>
+              <button className='theme-btn submit_btn' onClick={() => {window.location.href = "/auth/login/fail"}}>로그인 하기</button>
             </div>
           </form>
           <div className='social_login_box'>
