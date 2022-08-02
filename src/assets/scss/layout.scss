@@ -1,0 +1,37 @@
+#body {
+    display: flex;
+    max-width: 1420px;
+    height: calc(100vh - 130px);
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+// nav
+#nav {
+    width: 70px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+#nav .lnb-item {
+    padding: 10px;
+    background: #FFB9D1;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .1);
+}
+
+#nav .lnb-title {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    color: #333;
+}
+
+// main
+#main {
+    flex-grow: 1;
+    width: calc(100% - 70px);
+    padding: 20px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, .1);
+}
