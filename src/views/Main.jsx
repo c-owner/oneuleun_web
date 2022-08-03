@@ -19,28 +19,26 @@ const Main = (props) => {
 	return (
 		<div className="intro">
 			<div className="overlay-intro" style={dot2}></div>
-			<div className="intro-content top0 display-table">
-				<div className="table-cell">
-					<div className="container text-center">
-						{/*<p className="title mb50 text-slider">오늘 하루 어떠셨나요?</p>*/}
-						<div className="mb50">
-							<Typed loop={true} text={slider_arr[Math.floor(Math.random() * slider_arr.length)]} speed={120}/>
-						</div>
+			<div className="intro-content top0 left0">
+				<div className="container text-center">
+					{/*<p className="title mb50 text-slider">오늘 하루 어떠셨나요?</p>*/}
+					<div className="mb50">
+						<Typed loop={true} text={slider_arr[Math.floor(Math.random() * slider_arr.length)]} speed={120}/>
+					</div>
 
-						<div className="intro_btn_wrap m-w35 space-around flex item-center center-block">
-							<button onClick={() => {
-								window.location.href = '/diary';
-							}} variant="outlined" >일기 시작하기</button>
-							<button onClick={() => {
-								window.location.href = '/calendar';
-							}} variant="outlined">캘린더 확인하러가기</button>
-							<button onClick={() => {
-								window.location.href = "/mypage";
-							}} variant="outlined">내 프로필 설정하기</button>
-							<button onClick={() => {
-								window.location.href = "/auth/login";
-							}} variant="outlined">로그인 하기</button>
-						</div>
+					<div className="intro_btn_wrap m-w35 space-around flex item-center center-block">
+						<button onClick={() => {
+							window.location.href = '/diary';
+						}} variant="outlined" >일기 시작하기</button>
+						<button onClick={() => {
+							window.location.href = '/calendar';
+						}} variant="outlined">캘린더 확인하러가기</button>
+						<button onClick={() => {
+							window.location.href = "/mypage";
+						}} variant="outlined">내 프로필 설정하기</button>
+						<button onClick={() => {
+							window.location.href = "/auth/login";
+						}} variant="outlined">로그인 하기</button>
 					</div>
 				</div>
 			</div>

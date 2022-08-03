@@ -74,8 +74,13 @@ body, html, strong, a, span {
 	// height: calc(100vh - 64px);
 	color: #fff;
 	.intro-content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
 		text-align: center;
-		position: absolute;
+		position: fixed;
 	}
 
 	.text-slider-items {
@@ -87,7 +92,7 @@ body, html, strong, a, span {
 }
 .overlay-intro {
 	background-color: rgba(0, 0, 0, 0.6);
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0px;
 	padding: 0;
