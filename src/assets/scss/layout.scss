@@ -31,7 +31,13 @@
 #main {
     flex-grow: 1;
     width: calc(100% - 70px);
-    padding: 20px;
+    padding: 30px;
     background: #fff;
     box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, .1);
+}
+
+#main .scroll-area {
+    width: 100%;
+    overflow: auto;
+    height: 100%;
 }
