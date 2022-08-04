@@ -24,7 +24,7 @@ const Header = () => {
 
 	return (
 		<div className="header flex space-between item-center">
-			<img src={logo_dark} alt="오늘은 로고" width="82" height="50" className="cursor" onClick={() => {
+			<img src={logo_dark} alt="오늘은 로고" className="logo cursor" onClick={() => {
 					window.location.href = '/';
 			}} />
 			<div className='aside flex item-center'>
