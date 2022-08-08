@@ -5,19 +5,17 @@
 
 
 .auth_wrap {
-	width: calc(100% - 250px);
-	height: calc(100% - 140px);
+	// width: calc(100% - 250px);
+	// height: calc(100% - 140px);
 	padding: 90px 40px 83px;
 	margin: 40px auto;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	border-radius: 10px;
+	// box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	// border-radius: 10px;
 	background: #fff;
 	text-align: center;
 
 	.register_box {
 		border: 1px solid $theme-bg1;
-		width: 606px;
-		height: 761px;
 		margin: 0 auto;
 		border-radius: 15px;
 		position: relative;
@@ -71,20 +69,31 @@
 			font-family: $theme-font !important;
 			border-radius: 4px;
 			border: 1px solid $theme-bg2;
-			min-width: 180px;
+			width: 40vw;
 			min-height: 45px;
 			padding: 0 16px;
 			color: #444444;
+			margin-right: 16px;
 			&:active, &:focus, &:hover {
 				border: 1px solid $theme-bg1;
 				color: #000000;
 			}
 		}
+
 		.form_content {
 			display: flex;
 			align-items: center;
-			margin-bottom: 15px;
+			margin-bottom: 40px;
+			.submit_btn {
+				width: 120px;
+				height: 50px;
+				margin: 0 auto;
+				&.large {
+					width: 300px;
+				}
+			}
 		}
+		
 	}
 
 	.login_box {
@@ -110,18 +119,8 @@
 					margin-top: 40px;
 				}
 				.submit_btn {
-					color: #3D3185;
-					font-weight: bold;
-					background-color: white;
 					width: 40vw;
 					height: 47px;
-					border-radius: 4px;
-					border: 1px solid transparent;
-					background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(90deg, #3D3185 0%, #FFB9D1 100%);
-					background-origin: border-box;
-					background-clip: content-box,border-box;
-					padding: 0;
-
 				}
 			}
 			.login_checkbox {
