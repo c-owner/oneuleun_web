@@ -62,8 +62,8 @@ const Register = () => {
 							<input className="input" type="password" id
 							="password_confirm" placeholder="비밀번호 확인" />
 						</div>
-						<div>
-							<button type="button" onClick={submit}>가입 신청</button>
+						<div className="form_content">
+							<button type="button" className="submit_btn" onClick={submit}>가입 신청</button>
 						</div>
 					</div>
 
