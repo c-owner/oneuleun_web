@@ -39,13 +39,13 @@ const Register = () => {
 							<label for="user_email">이메일</label>
 							<input className="input" type="email" value={state.email}
 							id="user_email" placeholder="이메일을 입력해주세요" />
-							<button type="button" onClick={sendVerify(state.email)} className="btn-1">인증 발송</button>
+							<button type="button" onClick={sendVerify(state.email)} className="submit_btn">인증 발송</button>
 						</div>
 						<div className="form_content">
 							<label for="user_email">인증</label>
 							<input className="input" type="number" value={state.fverifyCode}
 							id="user_email" placeholder="인증번호를 입력해주세요" />
-							<button type="button" className="btn-1">인증 확인</button>
+							<button type="button" className="submit_btn">인증 확인</button>
 						</div>
 						<div className="form_content">
 							<label for="user_nickname">닉네임</label>
@@ -63,7 +63,7 @@ const Register = () => {
 							="password_confirm" placeholder="비밀번호 확인" />
 						</div>
 						<div className="form_content">
-							<button type="button" className="submit_btn" onClick={submit}>가입 신청</button>
+							<button type="button" className="submit_btn large" onClick={submit}>가입 신청</button>
 						</div>
 					</div>
 
