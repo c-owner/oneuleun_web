@@ -1,9 +1,13 @@
 import React from "react";
+import {KAKAO_AUTH_URL} from "../../KakaoLogin";
+import login_kakao from "../../assets/images/login_kakao.png";
+import {NAVER_AUTH_URL} from "../../NaverLogin";
+import login_naver from "../../assets/images/login_naver.png";
 const member = require('../../config/api/member.js');
 
 const Register = () => {
 	let verifyCode = '';
-	
+
 	let state = {
 		email: '',
 		password: '',
@@ -12,22 +16,23 @@ const Register = () => {
 	}
 
 	const sendVerify = async (value) => {
-	
+
 		const params = {
 			email: value.email,
 			nickname: value.nickname,
 			password: value.password,
 			passwordConfirm: value.passwordConfirm,
 		}
-		
+
 		await member.verifyMail;
 	}
-	
+
 	const submit = () => {
 		console.log("submit");
 	}
-
-
+	let margin_right = {
+		marginRight: "10px",
+	}
 	return (
 
 		<div className="bg-white auth_wrap">
@@ -64,6 +69,14 @@ const Register = () => {
 						</div>
 						<div className="form_content">
 							<button type="button" className="submit_btn large" onClick={submit}>가입 신청</button>
+						</div>
+						<div className="social_login_box">
+							<a className="social_login login_kakao" style={margin_right} href={KAKAO_AUTH_URL}>
+								<img src={ login_kakao } alt="카카오로 로그인" />
+							</a>
+							<a className="social_login login_naver" href={NAVER_AUTH_URL}>
+								<img src={ login_naver } alt="네이버로 로그인" />
+							</a>
 						</div>
 					</div>
 

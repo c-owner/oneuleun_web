@@ -39,6 +39,9 @@ const Main = (props) => {
 						<button onClick={() => {
 							window.location.href = "/auth/login";
 						}} variant="outlined">로그인 하기</button>
+						<button onClick={() => {
+							window.location.href = "/auth/register";
+						}} variant="outlined">회원가입 하기</button>
 					</div>
 				</div>
 			</div>
