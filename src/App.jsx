@@ -1,6 +1,5 @@
 import 'assets/scss/index.scss';
 import {Routes, Route} from "react-router-dom";
-import Lnb from 'layouts/Lnb';
 import Main from "views/Main";
 import Hello from "views/Hello";
 import Header from "layouts/ui/Header"
@@ -9,7 +8,6 @@ import Login from 'views/auth/Login';
 import Layout from 'layouts/Layout';
 
 const auth_path = '/auth';
-const diary_path = '/diary';
 
 function App() {
 	return (
