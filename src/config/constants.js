@@ -30,4 +30,3 @@ export const dels = (url, params) => {
 
     return axios.delete(api_url + url, {headers: headers, params: params});
 }
- 
