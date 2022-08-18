@@ -7,6 +7,7 @@ const Layout = () => {
             <div id="body">
             <Lnb/>
             <div id="main">
+
             </div>
         </div>
         );
