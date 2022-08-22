@@ -16,12 +16,9 @@ const Register = () => {
 	}
 
 	const sendVerify = async (value) => {
-
+		console.log(value)
 		const params = {
 			email: value.email,
-			nickname: value.nickname,
-			password: value.password,
-			passwordConfirm: value.passwordConfirm,
 		}
 
 		await member.verifyMail;
@@ -43,24 +40,26 @@ const Register = () => {
 					<div className="auth_form">
 						<div className="form_content">
 							<label for="user_email">이메일</label>
-							<input className="input" type="email" value={form.email}
+							<input className="input" type="email" defaultValue={form.email}
 							id="user_email" placeholder="이메일을 입력해주세요" />
-							<button type="button" onClick={sendVerify(form.email)} className="submit_btn">인증 발송</button>
+							<button type="button" onClick={() => {
+								sendVerify(form.email)
+							}} className="submit_btn">인증 발송</button>
 						</div>
 						<div className="form_content">
 							<label for="user_email">인증</label>
-							<input className="input" type="number" value={form.fverifyCode}
+							<input className="input" type="number" defaultValue={form.fverifyCode}
 							id="user_email" placeholder="인증번호를 입력해주세요" />
 							<button type="button" className="submit_btn">인증 확인</button>
 						</div>
 						<div className="form_content">
 							<label for="user_nickname">닉네임</label>
-							<input className="input" type="text" value={form.nickname}
+							<input className="input" type="text" defaultValue={form.nickname}
 							 id="user_nickname" placeholder="닉네임을 입력해주세요.(2~12자)" />
 						</div>
 						<div className="form_content">
 							<label for="user_passowrd">비밀번호</label>
-							<input className="input" type="password" value={form.password}
+							<input className="input" type="password" defaultValue={form.password}
 							id="user_passowrd" placeholder="비밀번호을 입력해주세요" />
 						</div>
 						<div className="form_content">
